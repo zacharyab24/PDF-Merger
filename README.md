@@ -10,4 +10,8 @@ files \
 ├─ file1.pdf \
 ├─ file2.pdf \
 ... \
-├─ fileN.pdf
+├─ fileN.pdf \
+├─ pdfMerge.py \
+
+No, this is not the most feature rich pdf merger out there, and the inputs are limited, but I coudln't care. This is just something quick and dirty to merge my lecture slides
+
