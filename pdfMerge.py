@@ -1,13 +1,13 @@
-from pypdf import PdfMerger
+from pypdf import PdfWriter
 
 fileName = input("File name: ")
 fileNumber = int(input("Number of files: "))
 outputName = input("Output name: ")
 
-merger = PdfMerger()
+merger = PdfWriter()
 
 i=1
-while i < fileNumber:
+while i <= fileNumber:
     merger.append(fileName + str(i) + ".pdf")
     i+=1
 
